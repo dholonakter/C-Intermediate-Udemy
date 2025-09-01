@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/CSharpIntermediate
+/CSharpIntermediate/obj/Debug
+/CSharpIntermediate/bin/Debug
+/CSharpIntermediate/.vs
+/CSharpIntermediate/Properties
+/CSharpIntermediate/App.config
+/CSharpIntermediate/CSharpIntermediate.csproj
