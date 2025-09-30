@@ -28,7 +28,24 @@ namespace CSharpIntermediate
 
 
             // UseStopWatch();
-            UsePost();
+            // UsePost();
+            UseStack();
+
+
+
+        }
+        static void UseStack()
+        {
+            Stack stack = new Stack();
+            stack.Clear();
+            stack.Push(1);
+            stack.Push(2);
+            stack.Push(3);
+            stack.ReadList();
+            Console.WriteLine(stack.Pop());
+            Console.WriteLine(stack.Pop());
+            Console.WriteLine(stack.Pop());
+
 
 
 
@@ -105,5 +122,15 @@ namespace CSharpIntermediate
             myClass.MyMethod(out result);
             Console.WriteLine(result);
         }
+        //public static string BreakCamelCase(string str)
+        //{
+        //    var result = str.ToCharArray();
+
+        //    for (int i = 0; i < result.Length; i++)
+        //    {
+        //    }
+
+        //}
+            
     }
 }
